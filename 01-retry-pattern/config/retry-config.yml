@@ -1,0 +1,6 @@
+retry:
+  max_attempts: 3
+  backoff:
+    type: exponential
+    initial_delay_seconds: 1
+    multiplier: 2
